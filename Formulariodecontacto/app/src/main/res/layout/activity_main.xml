@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Siguiente" />
+
+    <DatePicker
+        android:id="@+id/date_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcontacto"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+
+        />
+
+    <EditText
+    android:id="@+id/tvFecha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="20"
+    android:hint="Fecha Nacimiento"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/tvnombre"
+    android:textSize="18sp"
+
+    />
+
+
+
+    <EditText
+        android:id="@+id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:hint="Nombre Completo"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/tvtelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:hint="Telefono"
+        android:layout_below="@+id/tvFecha"
+
+
+        />
+
+    <EditText
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:layout_below="@+id/tvtelefono"
+
+
+        />
+    \<EditText
+    android:id="@+id/tvcontacto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="20"
+    android:inputType="textPersonName"
+    android:hint="Informacion del contacto"
+    android:layout_below="@+id/tvemail"
+
+
+    />
+
+
+
+</RelativeLayout>
